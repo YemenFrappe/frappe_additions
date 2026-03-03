@@ -1,0 +1,8 @@
+{
+    "js": [
+      "preview_attachment/js/preview_attachment.bundle.js",
+      "sidebar_collapsed/js/collapse_sidebar.bundle.js"
+    ],
+    "css": []
+  }
+  

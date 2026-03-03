@@ -1,4 +1,5 @@
 app_name = "frappe_additions"
+# build_command = "yarn run build"
 app_title = "Frappe Additions"
 app_publisher = "alaalsalam"
 app_description = "Tools and add-ons for the Frappe that improve work"
@@ -9,6 +10,8 @@ app_license = "mit"
 # ------------------
 
 # required_apps = []
+required_apps = ["frappe"]
+
 
 # Each item in the list will be shown as an app in the apps page
 # add_to_apps_screen = [
@@ -27,6 +30,22 @@ app_license = "mit"
 # include js, css files in header of desk.html
 # app_include_css = "/assets/frappe_additions/css/frappe_additions.css"
 # app_include_js = "/assets/frappe_additions/js/frappe_additions.js"
+
+# app_include_css = ['/assets/frappe_additions/preview_attachment/src/scss/preview_attachment.bundle.scss',]
+# app_include_js = ['/assets/frappe_additions/preview_attachment/src/js/preview_attachment.bundle.js']
+app_include_js = [
+    '/assets/frappe_additions/preview_attachment/js/preview_attachment.bundle.js',
+    '/assets/frappe_additions/sidebar_collapsed/js/collapse_sidebar.bundle.js',
+]
+# app_include_js = "/assets/frappe_additions/private_attachments/js/frappe_private_attachments.js"
+
+
+
+
+# override_whitelisted_methods = {
+#     "upload_file": "frappe_private_attachments.frappe_private_attachments.upload_file"
+# }
+
 
 # include js, css files in header of web template
 # web_include_css = "/assets/frappe_additions/css/frappe_additions.css"
