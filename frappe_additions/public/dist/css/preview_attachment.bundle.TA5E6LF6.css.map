@@ -1,7 +1,7 @@
 {
   "version": 3,
-  "sources": ["../../../../../../../../tmp/tmp-855444-QR7nfG0ngLsR/frappe_additions/frappe_additions/public/preview_attachment/scss/preview_attachment.bundle.css"],
+  "sources": ["../../../../../../../../tmp/tmp-1689014-iLgYZ9Ubrpar/frappe_additions/frappe_additions/public/preview_attachment/scss/preview_attachment.bundle.css"],
   "sourcesContent": [".json-preview-content {\n  background: #2d2d2d; /* Dark background */\n  color: #f8f8f2; /* Light text color */\n  border-radius: 5px;\n  padding: 15px;\n  font-family: \"Courier New\", monospace;\n  font-size: 14px;\n  overflow: auto;\n  max-height: 600px;\n  line-height: 1.5;\n}\n\n.json-preview-content span.key {\n  color: #66d9ef; /* Keys in light blue */\n}\n\n.json-preview-content span.string {\n  color: #a6e22e; /* Strings in green */\n}\n\n.json-preview-content span.number {\n  color: #ae81ff; /* Numbers in purple */\n}\n\n.json-preview-content span.boolean {\n  color: #f92672; /* Booleans in red */\n}\n\n.json-preview-content span.null {\n  color: #75715e; /* Null in gray */\n}"],
-  "mappings": ";AAAA;AACE;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AAAA;AAGF;AACE;AAAA;AAGF;AACE;AAAA;AAGF;AACE;AAAA;AAGF;AACE;AAAA;AAGF;AACE;AAAA;",
+  "mappings": "AAAA,sBACE,mBACA,cAFF,+BAKE,kCACA,eACA,cACA,iBACA,gBAGF,+BACE,cAGF,kCACE,cAGF,kCACE,cAGF,mCACE,cAGF,gCACE",
   "names": []
 }
